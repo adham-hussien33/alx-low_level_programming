@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp $CFILE > $(echo $CFILE | sed 's/\.c$/-pp.c/')
+gcc -E $CFILE -o c
