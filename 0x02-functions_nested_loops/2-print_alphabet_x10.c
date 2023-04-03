@@ -2,19 +2,20 @@
 
 /**
  * print_alphabet_x10 - Prints the lowercase alphabet 10 times, each followed by a newline
+ *
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-char c;
-int i;
+int line, ch;
 
-for (i = 0; i < 10; i++)
+for (line = 0; line <= 9; line++)
 {
-for (c = 'a'; c <= 'z'; c++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(c);
+_putchar(ch);
 }
-putchar('\n');
+_putchar('\n');
 }
 }
 
