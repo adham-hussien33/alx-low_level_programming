@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * reset_to_98 - updates the value of an integer to 98
+ * reset_to_98 - Updates the value to 98.
  *
- * @n: a pointer to an integer
+ * @n: Pointer to integer.
  *
- * Return: void
+ * Return: void.
  */
 void reset_to_98(int *n)
 {
