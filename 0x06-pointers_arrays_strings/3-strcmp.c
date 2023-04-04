@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _strcmp - compares two strings
- * @s1: first string to compare
+* _strcmp - compares two strings
+* @s1: first string to compare
  * @s2: second string to compare
  *
  * Return: an integer less than, equal to, or greater than zero if s1 is found,
@@ -19,8 +19,8 @@ if (*s1 != *s2)
 equal = (((int)*s1 - 48) - ((int)*s2 - 48));
 break;
 }
-s1++
-s2++
+s1++;
+s2++;
 }
 
 return (equal);
